@@ -7,7 +7,7 @@ def guess_number():
         user = int(input("Masukkan angka > "))
         if user == secret_number:
             print("Selamat, anda berhasil menemukan angkanya")
-            break\
+            break
         else:
             print("Salah")
             guess += 1
