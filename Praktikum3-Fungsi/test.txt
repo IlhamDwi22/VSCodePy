@@ -1,0 +1,43 @@
+st=>start: Start
+e=>end
+op2=>operation: import math
+op4=>operation: i = 0
+op6=>operation: v = 0
+sub8=>subroutine: print(i, math.sqrt((6 * v)))
+op10=>operation: i = (i + 1)
+op12=>operation: v = (v + ((1 / i) ** 2))
+sub14=>subroutine: print(i, math.sqrt((6 * v)))
+op16=>operation: i = (i + 1)
+op18=>operation: v = (v + ((1 / i) ** 2))
+sub20=>subroutine: print(i, math.sqrt((6 * v)))
+op22=>operation: i = (i + 1)
+op24=>operation: v = (v + ((1 / i) ** 2))
+sub26=>subroutine: print(i, math.sqrt((6 * v)))
+op28=>operation: i = (i + 1)
+op30=>operation: v = (v + ((1 / i) ** 2))
+sub32=>subroutine: print(i, math.sqrt((6 * v)))
+op34=>operation: i = (i + 1)
+op36=>operation: v = (v + ((1 / i) ** 2))
+sub38=>subroutine: print(i, math.sqrt((6 * v)))
+
+st->op2
+op2->op4
+op4->op6
+op6->sub8
+sub8->op10
+op10->op12
+op12->sub14
+sub14->op16
+op16->op18
+op18->sub20
+sub20->op22
+op22->op24
+op24->sub26
+sub26->op28
+op28->op30
+op30->sub32
+sub32->op34
+op34->op36
+op36->sub38
+sub38->e
+

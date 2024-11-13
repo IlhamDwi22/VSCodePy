@@ -1,0 +1,8 @@
+{
+  "window.zoomLevel": 0,
+  "editor.fontSize": 16,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "codeSTACKr Theme",
+  "sqltools.connections": []
+}
